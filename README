@@ -1,0 +1,9 @@
+# GDB init
+## Install
+`export TOP=/path/to/project/`
+`cd $project`
+`./install.sh`
+## Usage
+`$TOOLCHAIN-gdb executable`
+## Use cgdb
+`cgdb -d arm-linux-gnueabihf-gdb executable`
